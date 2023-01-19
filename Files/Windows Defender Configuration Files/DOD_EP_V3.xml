@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MitigationPolicy>
-  <AppConfig Executable="ONEDRIVE.EXE">
-    <DEP OverrideDEP="false" />
-    <ASLR OverrideRelocateImages="false" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
-    <ImageLoad OverrideBlockRemoteImages="false" />
-  </AppConfig>
-  <AppConfig Executable="firefox.exe">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-  </AppConfig>
   <AppConfig Executable="fltldr.exe">
     <DEP OverrideDEP="false" />
     <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
@@ -23,11 +13,6 @@
     <ImageLoad OverrideBlockRemoteImages="false" />
     <ChildProcess OverrideChildProcess="false" />
   </AppConfig>
-  <AppConfig Executable="Acrobat.exe">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
-  </AppConfig>
   <AppConfig Executable="AcroRd32.exe">
     <DEP OverrideDEP="false" />
     <ASLR ForceRelocateImages="true" />
@@ -35,11 +20,6 @@
   </AppConfig>
   <AppConfig Executable="chrome.exe">
     <DEP OverrideDEP="false" />
-  </AppConfig>
-  <AppConfig Executable="EXCEL.EXE">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
   </AppConfig>
   <AppConfig Executable="iexplore.exe">
     <DEP OverrideDEP="false" />
@@ -91,27 +71,12 @@
     <DEP OverrideDEP="false" />
     <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
   </AppConfig>
-  <AppConfig Executable="POWERPNT.EXE">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
-  </AppConfig>
   <AppConfig Executable="PPTVIEW.EXE">
     <DEP OverrideDEP="false" />
     <ASLR ForceRelocateImages="true" />
     <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
   </AppConfig>
   <AppConfig Executable="VISIO.EXE">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
-  </AppConfig>
-  <AppConfig Executable="VPREVIEW.EXE">
-    <DEP OverrideDEP="false" />
-    <ASLR ForceRelocateImages="true" />
-    <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />
-  </AppConfig>
-  <AppConfig Executable="WINWORD.EXE">
     <DEP OverrideDEP="false" />
     <ASLR ForceRelocateImages="true" />
     <Payload OverrideEnableExportAddressFilter="false" OverrideEnableExportAddressFilterPlus="false" OverrideEnableImportAddressFilter="false" OverrideEnableRopStackPivot="false" OverrideEnableRopCallerCheck="false" OverrideEnableRopSimExec="false" />

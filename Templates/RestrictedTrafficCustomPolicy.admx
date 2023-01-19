@@ -74,27 +74,6 @@
         1 for no traffic
         Choices: 1 or 0 / delete
     -->
-    </policy>
-    <policy 
-		name="PreventNetworkTrafficPreUserSignIn" 
-		class="Machine" 
-		displayName="$(string.BlockOneDriveNetworkActivityUntilUserSignIn)" 
-		explainText="$(string.BlockOneDriveNetworkActivityUntilUserSignIn_help)" 
-		key="SOFTWARE\Microsoft\OneDrive" valueName="PreventNetworkTrafficPreUserSignIn">
-      <parentCategory ref="Cat_WHMCP" />
-      <supportedOn ref="windows:SUPPORTED_Windows7" />
-      <enabledValue>
-        <decimal value="1" />
-      </enabledValue>
-      <disabledValue>
-        <decimal value="0" />
-      </disabledValue>
-	<!--
-        1 for no traffic
-        Choices: 1 or 0 / delete
-    -->
-    </policy>
-	
 	
     <policy 
 		name="Pol_WHMCP_EanbleTrackProgramsInStart" 
